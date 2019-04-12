@@ -1,0 +1,13 @@
+html
+    head
+    link(rel="stylesheet", href="assets/style.css")
+    body
+        .topText Reverse Facemash
+        .byLine Click on who's worse
+        #status
+        .main
+            for val in data
+                .mashImageHolder
+                    img.mashImage(src="/images/"+val.url name=val.url)
+        script(src="assets/leader.js")
+                    

@@ -1,0 +1,23 @@
+{
+  "name": "facemash-clone",
+  "version": "1.0.0",
+  "description": "attempt to make a facemash",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "face",
+    "mash",
+    "facemash",
+    "clone"
+  ],
+  "author": "vit",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.17",
+    "pug": "^2.0.3"
+  }
+}
